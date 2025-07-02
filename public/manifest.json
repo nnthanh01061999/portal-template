@@ -1,0 +1,9 @@
+{
+  "name": "CMI Admin Portal",
+  "short_name": "CMI Admin",
+  "description": "Admin portal for CMI system",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}

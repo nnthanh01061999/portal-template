@@ -1,0 +1,39 @@
+@layer theme, base, antd, components, utilities;
+
+@import "tailwindcss" important;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Custom Ant Design overrides */
+.ant-layout-sider {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  z-index: 10;
+}
+
+.ant-layout-header {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  z-index: 9;
+}
+
+.ant-menu-item a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Fix for Ant Design in Tailwind */
+svg {
+  vertical-align: baseline;
+}
