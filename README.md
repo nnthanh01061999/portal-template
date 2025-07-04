@@ -1,5 +1,7 @@
 # CMI Admin Portal
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/nnthanh01061999/portal-template)
+
 A modern, internationalized admin portal built with Next.js 15, TypeScript, Tailwind CSS, and Ant Design Pro Components.
 
 ## Features
